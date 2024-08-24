@@ -1,90 +1,53 @@
-.comments {
-  @include center(rem(800px));
-  padding: 0 rem(20px);
-  
-  h3 {
-    margin: 0 0 rem(30px);
-    font-size: rem(30px);
-  }
-}
-
 footer {
-  @include center(rem(800px));
-  border-top: 1px solid darken($accentDark, 10%);
+  @include center(rem(800px)); // Center content within the container
   background: $accentDark;
   padding: rem(20px) rem(25px);
   margin-top: rem(50px);
   margin-bottom: rem(120px);
   @include mainFont(300);
+  text-align: center; // Center align text and inline elements
 
-  @include media(">=sm") {
-    margin-top: rem(100px);
-  }
-
-  p {
-    text-decoration: none;
-    color: $primaryDark;
-    font-size: rem(16px);
-    line-height: rem(25px);
-  }
-
-  span {
-    font-weight: 700;
-  }
-
-  svg {
-    @include size(28, 28);
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: rem(10px);
-
-    @include media(">=sm") {
-      margin-right: rem(20px);
-    }
-
-    &.love {
-      @include size(20, 20);
-      fill: $themeColor;
-      margin-top: rem(-2px);
-      margin-left: rem(3px);
-      margin-right: rem(3px);
-    }
-  }
-
-  a {
-    display: inline-block;
-    fill: #808080;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    color: #808080;
-    
-    &:hover {
-      fill: $themeColor;
-    }
-    
-    &.creator:hover {
-      text-decoration: underline;
-    }
-  }
-
+  // Hide all other elements
+  .comments,
+  p,
+  span,
   ul {
-    padding: 0;
-    list-style-type: none;
+    display: none;
+  }
 
-    li {
-      margin-bottom: rem(10px);
-    }
+  .footer-buttons {
+    display: flex;
+    justify-content: center; // Center align buttons horizontally
+    gap: rem(40px); // Space between buttons
 
     a {
+      display: inline-block;
       text-decoration: none;
-      font-size: rem(15px);
+      color: #808080; // Default color
+      transition: all 0.3s ease;
       
       &:hover {
-        text-decoration: underline;
+        color: $themeColor; // Hover color
+      }
+    }
+
+    .footer-home,
+    .footer-contact,
+    .footer-linkedin {
+      font-size: rem(16px); // Adjust size as needed
+      @include size(28, 28); // Adjust size as needed
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+     .footer-linkedin svg {
+      @include size(18, 18); // Ensure LinkedIn SVG is sized correctly
+      fill: currentColor; // Inherit color from the parent element
+      margin-top: -2px;  
       }
     }
   }
-}
 
 .main-page {
   footer {

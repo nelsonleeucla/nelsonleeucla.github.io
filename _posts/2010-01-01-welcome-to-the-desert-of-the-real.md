@@ -1,20 +1,17 @@
 ---
-date: 2019-05-16 23:48:05
+date: 2024-08-15 23:48:05
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: Welcome to my website
+subtitle: "Feel free to browse through, and you can see how I built it here:"
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  Welcome to my website! You can see how I built it here.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://res.cloudinary.com/dp1pwklel/image/upload/v1724290215/headedit_qlhwhh.png
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_380,h_200/v1724290215/headedit_qlhwhh.png
 category: blog
 tags:
-  - welcome
-  - blog
-author: mranderson
+author: 
 paginate: true
 ---
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

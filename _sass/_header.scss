@@ -29,6 +29,11 @@ body {
       font-size: rem(32px);
       position: relative;
       outline: 0;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #0047ab; /* Cobalt Blue on hover */
+      }
     }
 
     svg {
@@ -66,6 +71,9 @@ body {
     @include media(">=sm") {
       margin: rem(5px) rem(20px) rem(5px) rem(25px);
     }
+    &:hover {
+      fill: #0047ab; /* Cobalt Blue on hover */
+    }
   }
 
   .dosearch {
@@ -77,6 +85,9 @@ body {
     @include media(">=sm") {
       margin: 0 rem(20px) 0 0;
     }
+    &:hover .icon-search {
+      fill: #0047ab; /* Cobalt Blue on hover */
+    }
   }
 
   .icon-search {
@@ -84,6 +95,24 @@ body {
     height: rem(20px);
     fill: $accentDark;
     margin: rem(5px);
+  }
+
+  .header-linkedin {
+    float: right;
+    margin-right: rem(10px);
+    width: rem(30px);
+    height: rem(30px);
+    display: inline-block;
+    svg {
+      width: rem(28px);
+      height: rem(28px);
+      fill: $accentDark;
+      transition: fill 0.3s;
+    }
+
+    &:hover svg {
+      fill: #0077b5;
+    }
   }
 
   .get-theme {
@@ -118,13 +147,23 @@ body.light:not(.main-page) {
     background-color: rgba(255, 255, 255, 0.95);
 
     .icon-search,
-    .icon-menu {
-      fill: $primaryDark;
+    .icon-menu,
+    .header-linkedin svg {
+      fill: #000000; /* Change icon color to black on light mode, non-main pages */
     }
 
     .logo a,
     .version {
-      color: $primaryDark;
+      color: #000000; /* Change text color to black on light mode, non-main pages */
+      &:hover {
+        color: #0047ab; /* Cobalt Blue on hover */
+      }
+    }
+
+    .icon-search:hover,
+    .icon-menu:hover,
+    .header-linkedin:hover svg {
+      fill: #0047ab; /* Cobalt Blue on hover */
     }
   }
 }

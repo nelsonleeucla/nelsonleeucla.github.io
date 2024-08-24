@@ -1,16 +1,14 @@
 ---
 date: 2018-03-12 12:26:40
 layout: post
-title: Trust me, it will work
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme1_eoyjtl.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme1_eoyjtl.jpg
-category: 'tips'
+title: About Me
+subtitle: 
+description: A closer look at both my professional and personal goals.
+image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_760,h_399,g_auto/v1724221128/catucr_epguol.jpg
+optimized_image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_380,h_200,g_auto/v1724221128/catucr_epguol.jpg
+category: about
 tags:
-  - languages
-  - tips
-author: mranderson
+author: 
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
