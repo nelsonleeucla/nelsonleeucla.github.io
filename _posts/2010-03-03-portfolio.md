@@ -24,20 +24,26 @@ To create an impactful advertisement for a car resale listing on platforms cush 
 
 The Honda Accord is not the fastest, stylish, or even most efficient car. However, it does possess a reputation to last almost forever (up to 200,000-300,000 miles). This point is what I decided to focus on for the direction of my advertisement. A potential car buyer could see a listing for a sportier Mazda or a tougher looking Ford at a similar price. While I can't convince them that my car is just as, or even more, sporty and tough, I can convince them that my car's reliablity is something those cars definitely can't beat.
 
-In addition to its reliability, I decided to focus on it's appeal of being more than just a car to potential buyers: It can even be their best friend. While many other Honda Accord listings are available, potential buyers will distinguish mine as this video allows them to visualize having an intimate companionship with my specific car. Through close-up shots and slo-mos, they can become much more easily immersed in this visualization. My personal anecdote was added to demonstrate the car's success in serving as a companion, and it further emphasizes to potential buyers how it could do the same for them.
+In addition to its reliability, I decided to focus on it's appeal of being more than just a car to potential buyers: It can even be their best friend. While many other Honda Accord listings are available, potential buyers will distinguish mine as this video allows them to visualize having an intimate companionship with my specific car. 
 
+The choice of the soundtrack...
+Through close-up shots and slo-mos, they can become much more easily immersed in this visualization. My personal anecdote was added to demonstrate the car's success in serving as a companion, and it further emphasizes to potential buyers how it could do the same for them.
+The choice of lighting...
 
-
-## Fashion Cents Advertisement
+## Fashion Cents Paid Advertisement
 
 <iframe src="https://drive.google.com/file/d/1VADB8b2f0VzBMY8dk1TuQ41Pd5Me18gz/preview" width="760" height="427.5" allow="autoplay"></iframe>
 
 > *Captured with:* <br> - **Iphone 15** <br>*Edited with:* <br> - **CapCut**
 
+During my social media marketing internship at Friends Collection, I was given the task of creating a paid advertisement for their upcoming boardgame at the time, Fashion Cents.
+
+I was given free creative direction in the advertisement, so I decided to focus on the game's most appealing features: its fast pace, goofiness, and amazing art.
+
 ## Instagram Posts for @friendsplushies
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C3tE47vBN0l/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:40px auto; max-width:540px; min-width:326px; padding:0; width:100%;">
+  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C3tE47vBN0l/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:40px auto; max-width:500px; min-width:326px; padding:0; width:100%;">
     <div style="padding:16px;">
       <a href="https://www.instagram.com/p/C3tE47vBN0l/?utm_source=ig_embed&amp;utm_campaign=loading" style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;" target="_blank">
         <div style="display: flex; flex-direction: row; align-items: center;">
@@ -92,122 +98,17 @@ In addition to its reliability, I decided to focus on it's appeal of being more 
 </div>
 <script async src="//www.instagram.com/embed.js"></script>
 
+On top of creating content for Fashion Cents during my internship, I was also frequently tasked with creating content for @friendsplushies, the Instagram accound of the company's plushie brand.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+This post is one of many I helped designed and created. This post specifically serves as a introduction to one of brand's newest products, and aims at bringing awareness of its release while also making its character more "alive".
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+## Resident Advisor Welcome Poster
 
-Most of these elements are styled by browsers with few modifications on our part.
+![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724570954/appa_bnicnk.png)
 
-<!--page-->
+During my time as a resident advisor at UCR Residential Life, I created this 4x3 ft welcome poster for my residents. I decided to use a show I personally loved, Avatar, as the floor's theme, and Appa was my favorite character and was why I chose him.
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-<!--page-->
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-<!--page-->
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-<!--page-->
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
+I knew that many of my incoming residents would also be fans of the show, and I thought it would be a great way to enhance their residential experience as it allows them to easily find common ground with their new neighbors and environment.
 
 
 
