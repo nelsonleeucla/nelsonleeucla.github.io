@@ -26,13 +26,13 @@ The Honda Accord is not the fastest, stylish, or even most efficient car. Howeve
 
 In addition to its reliability, I decided to focus on it's appeal of being more than just a car to potential buyers: It can even be their best friend. While many other Honda Accord listings are available, potential buyers will distinguish mine as this video allows them to visualize having an intimate companionship with my specific car. Through close-up shots and slo-mos, they can become much more easily immersed in this visualization. My personal anecdote was added to demonstrate the car's success in serving as a companion, and it further emphasizes to potential buyers how it could do the same for them.
 
-<!--page-->
+
 
 ## Fashion Cents Advertisement
 
 <iframe src="https://drive.google.com/file/d/1VADB8b2f0VzBMY8dk1TuQ41Pd5Me18gz/preview" width="760" height="427.5" allow="autoplay"></iframe>
 
-> *Captured* with:<br> - **Iphone 15** <br>*Edited* with: <br> - **CapCut**
+> *Captured with:* <br> - **Iphone 15** <br>*Edited with:* <br> - **CapCut**
 
 ## Instagram Posts for @friendsplushies
 
