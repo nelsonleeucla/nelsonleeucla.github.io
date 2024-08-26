@@ -1,9 +1,9 @@
 ---
 date: 2024-08-10 23:48:05
 layout: post
-title: Previous works
+title: Previous work samples
 subtitle:
-description: Overview of video projects, photography, and social media posts.
+description: Past video projects, social media posts, and photography.
 image: https://res.cloudinary.com/dp1pwklel/image/upload/v1724306215/car2_kbjdu6.png
 optimized_image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_380,h_200/v1724306215/car2_kbjdu6.png
 category: portfolio
@@ -40,9 +40,21 @@ During my social media marketing internship at Friends Collection, I was given t
 
 I was given free creative direction in the advertisement, so I decided to focus on the game's most appealing features: its fast pace, goofiness, and amazing art.
 
-## Instagram Posts for @friendsplushies
+## Reddit Post for Fashion Cents
+<div style="width: 800px; margin: 30px auto;">
+  <blockquote class="reddit-embed-bq" style="height:500px;" data-embed-height="740">
+    <a href="https://www.reddit.com/r/tabletopgamedesign/comments/1bc36jl/update_choosing_between_legibility_or_player/">
+      Update: Choosing between Legibility or Player Freedom
+    </a><br>
+    by <a href="https://www.reddit.com/user/HouseFishBalloon/">u/HouseFishBalloon</a> in 
+    <a href="https://www.reddit.com/r/tabletopgamedesign/">tabletopgamedesign</a>
+  </blockquote>
+  <script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+</div>
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
+## Instagram Post for @friendsplushies
+
+<div style="display: flex; justify-content: center; margin: 30px 0;">
   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C3tE47vBN0l/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:40px auto; max-width:500px; min-width:326px; padding:0; width:100%;">
     <div style="padding:16px;">
       <a href="https://www.instagram.com/p/C3tE47vBN0l/?utm_source=ig_embed&amp;utm_campaign=loading" style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;" target="_blank">
@@ -104,11 +116,11 @@ This post is one of many I helped designed and created. This post specifically s
 
 ## Resident Advisor Welcome Poster
 
-![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724570954/appa_bnicnk.png)
+![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
 
-During my time as a resident advisor at UCR Residential Life, I created this 4x3 ft welcome poster for my residents. I decided to use a show I personally loved, Avatar, as the floor's theme, and Appa was my favorite character and was why I chose him.
+During my time as a resident advisor at UCR Residential Life, I created this large 4x2 ft graphic of Appa, from the show Avatar, for my residents.
 
-I knew that many of my incoming residents would also be fans of the show, and I thought it would be a great way to enhance their residential experience as it allows them to easily find common ground with their new neighbors and environment.
+I knew that many of my incoming residents would also be fans of Avatar, so I decided that it would be a great choice for my floor's theme as it would allow them to easily find common ground with their new neighbors and environment. I chose Appa for my large design as he was my personal favorite character from the show, and because I thought it would be cool for my residents to see a comforting character hanging on the wall (and seemingly flying leisurely) as they come back home.
 
 
 
