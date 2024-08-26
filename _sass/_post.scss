@@ -5,6 +5,30 @@
   @include media(">=sm") {
     top: rem(50px);
   }
+
+  /* Target images inside the .post section */
+  img {
+    display: block; // Default display for images
+  }
+}
+
+/* Styles specific to pages with 'no-media' class */
+.no-media .post {
+  @include media(">=sm") {
+    top: rem(30px); // Adjust this value as needed for your 'no-media' pages
+  }
+
+  /* Hide images on pages with 'no-media' class */
+  img {
+    display: none;
+  }
+}
+
+/* Optional: Styles for pages with 'with-media' class (if needed) */
+.with-media .post {
+  @include media(">=sm") {
+    top: rem(50px); // Adjust this value as needed for your 'with-media' pages
+  }
 }
 
 .post.two-columns {
