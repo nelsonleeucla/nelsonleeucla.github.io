@@ -194,6 +194,182 @@
                     });
                 });
             });
-        </script>        
+        </script>
+        <!-- <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const timeline = document.querySelector('.experience-timeline');
+                
+                function createBlueLight() {
+                    const light = document.createElement('div');
+                    light.classList.add('blue-light');
+                    
+                    // Append the light to the timeline container
+                    timeline.appendChild(light);
+                    
+                    // Remove the light after animation ends (7.5 seconds)
+                    setTimeout(() => {
+                        timeline.removeChild(light);
+                    }, 7500);
+                }
+            
+                // Start the first light immediately
+                createBlueLight();
+            
+                // Add a new light every 7.5 seconds
+                setInterval(createBlueLight, 7500);
+            });
+            </script>
+            
+            <style>
+            /* Additional styles for dynamically created blue lights */
+            .blue-light {
+                position: absolute;
+                width: 6px;
+                height: 60px;
+                background: radial-gradient(circle, rgba(0, 71, 171, 0.5) 50%, rgba(0, 71, 171, 0) 100%);
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 2;
+                animation: moveLight 7.5s linear forwards;
+            }
+            
+            @keyframes moveLight {
+                0% {
+                    top: 0;
+                    opacity: 1;
+                }
+                95% {
+                    opacity: 1;
+                }
+                100% {
+                    top: 100%;
+                    opacity: 0;
+                }
+            }
+            </style> -->
+            <!-- For vertical line -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const timeline = document.querySelector('.experience-timeline');
+                    
+                    function createBlueLight() {
+                        const light = document.createElement('div');
+                        light.classList.add('blue-light');
+                        
+                        // Append the light to the timeline container
+                        timeline.appendChild(light);
+                        
+                        // Remove the light after animation ends (7.5 seconds)
+                        setTimeout(() => {
+                            timeline.removeChild(light);
+                        }, 20000);
+                    }
+                
+                    // Start the first light immediately
+                    createBlueLight();
+                
+                    // Add a new light every 5 seconds
+                    setInterval(createBlueLight, 5000);
+                });
+                </script>
+                
+                <style>
+                /* Additional styles for dynamically created blue lights */
+                .blue-light {
+                    position: absolute;
+                    width: 6px;
+                    height: 100px;
+                    background: radial-gradient(circle, rgba(0, 71, 171, 0.5) 50%, rgba(0, 71, 171, 0) 100%);
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 2;
+                    animation: moveLight 20s linear forwards;
+                }
+                
+                @keyframes moveLight {
+                    0% {
+                        top: 0;
+                        opacity: 1;
+                    }
+                    95% {
+                        opacity: 1;
+                    }
+                    100% {
+                        top: calc(100% - 100px); /* Adjust the ending position */
+                        opacity: 0; /* Fade out the light at the bottom */
+                    }
+                }
+                </style>
+                
+        <!-- For skills section -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const skillCards = document.querySelectorAll('.skill-card');
+          
+                skillCards.forEach(card => {
+                    card.addEventListener('mousemove', function(event) {
+                        const rect = card.getBoundingClientRect();
+                        const x = event.clientX - rect.left;
+                        const y = event.clientY - rect.top;
+                        const width = rect.width;
+                        const height = rect.height;
+          
+                        const xPercent = (x / width) * 100;
+                        const yPercent = (y / height) * 100;
+          
+                        card.style.background = `
+                            radial-gradient(circle at ${xPercent}% ${yPercent}%, 
+                            rgba(0, 71, 171, 0.2) 0%, 
+                            rgba(0, 71, 171, 0.1) 50%, 
+                            rgba(255, 255, 255, 0) 100%)
+                        `;
+          
+                        const borderColor = (xPercent > 50) ? 'rgba(0, 71, 171, 0.1)' : 'rgba(0, 71, 171, 0.05)';
+                        card.style.borderColor = borderColor;
+                    });
+          
+                    card.addEventListener('mouseleave', function() {
+                        card.style.background = '#ffffff';
+                        card.style.borderColor = '#ccc';
+                    });
+                });
+            });
+          </script>
+          <!-- For Education section      -->
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const educationCards = document.querySelectorAll('.education-card');
+          
+                educationCards.forEach(card => {
+                    card.addEventListener('mousemove', function(event) {
+                        const rect = card.getBoundingClientRect();
+                        const x = event.clientX - rect.left;
+                        const y = event.clientY - rect.top;
+                        const width = rect.width;
+                        const height = rect.height;
+          
+                        const xPercent = (x / width) * 100;
+                        const yPercent = (y / height) * 100;
+          
+                        card.style.background = `
+                            radial-gradient(circle at ${xPercent}% ${yPercent}%, 
+                            rgba(0, 71, 171, 0.2) 0%, 
+                            rgba(0, 71, 171, 0.1) 50%, 
+                            rgba(255, 255, 255, 0) 100%)
+                        `;
+          
+                        const borderColor = (xPercent > 50) ? 'rgba(0, 71, 171, 0.1)' : 'rgba(0, 71, 171, 0.05)';
+                        card.style.borderColor = borderColor;
+                    });
+          
+                    card.addEventListener('mouseleave', function() {
+                        card.style.background = '#ffffff';
+                        card.style.borderColor = '#ccc';
+                    });
+                });
+            });
+          </script>          
     </body>
 </html>
