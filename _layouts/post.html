@@ -160,40 +160,40 @@
         <script>
             // JavaScript to handle hover effect and change card background color dynamically
             document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.experience-card');
-
-            cards.forEach(card => {
-                card.addEventListener('mousemove', function(event) {
-                const rect = card.getBoundingClientRect();
-                const x = event.clientX - rect.left; // Mouse X position relative to card
-                const y = event.clientY - rect.top; // Mouse Y position relative to card
-                const width = rect.width;
-                const height = rect.height;
-
-                // Calculate the position percentage
-                const xPercent = (x / width) * 100;
-                const yPercent = (y / height) * 100;
-
-                // Set dynamic background color based on mouse position with new color
-                card.style.background = `
-                    radial-gradient(circle at ${xPercent}% ${yPercent}%, 
-                    rgba(0, 71, 171, 0.2) 0%,  /* Updated color */
-                    rgba(0, 71, 171, 0.1) 50%, /* Updated color */
-                    rgba(255, 255, 255, 0) 100%)
-                `;
-
-                // Update border color dynamically based on mouse position with new color
-                const borderColor = (xPercent > 50) ? 'rgba(0, 71, 171, 0.1)' : 'rgba(0, 71, 171, 0.05)';
-                card.style.borderColor = borderColor;
-                });
-
-                card.addEventListener('mouseleave', function() {
-                // Reset background and border color when the mouse leaves the card
-                card.style.background = 'linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%)';
-                card.style.borderColor = '#ccc'; // Reset to original border color
+                const cards = document.querySelectorAll('.experience-card');
+        
+                cards.forEach(card => {
+                    card.addEventListener('mousemove', function(event) {
+                        const rect = card.getBoundingClientRect();
+                        const x = event.clientX - rect.left; // Mouse X position relative to card
+                        const y = event.clientY - rect.top; // Mouse Y position relative to card
+                        const width = rect.width;
+                        const height = rect.height;
+        
+                        // Calculate the position percentage
+                        const xPercent = (x / width) * 100;
+                        const yPercent = (y / height) * 100;
+        
+                        // Set dynamic background color based on mouse position
+                        card.style.background = `
+                            radial-gradient(circle at ${xPercent}% ${yPercent}%, 
+                            rgba(0, 71, 171, 0.2) 0%,  /* Updated color */
+                            rgba(0, 71, 171, 0.1) 50%, /* Updated color */
+                            rgba(255, 255, 255, 0) 100%)
+                        `;
+        
+                        // Update border color dynamically based on mouse position
+                        const borderColor = (xPercent > 50) ? 'rgba(0, 71, 171, 0.1)' : 'rgba(0, 71, 171, 0.05)';
+                        card.style.borderColor = borderColor;
+                    });
+        
+                    card.addEventListener('mouseleave', function() {
+                        // Reset background and border color when the mouse leaves the card
+                        card.style.background = '#ffffff'; // Solid white background
+                        card.style.borderColor = '#ccc'; // Reset to original border color
+                    });
                 });
             });
-            });
-        </script>
+        </script>        
     </body>
 </html>

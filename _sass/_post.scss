@@ -763,14 +763,14 @@
 /* Experience Card */
 .experience-card {
   position: relative;
-  width: calc(50% - 30px); /* Adjust width to accommodate spacing */
+  width: calc(50% - 20px); /* Adjust width to accommodate spacing */
   padding: 20px;
-  background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); /* Lighter gradient */
+  background: #ffffff;
   border-radius: 8px;
-  border: 1px solid #ccc; /* Gray border to match vertical line */
+  border: 3px solid #ccc; /* Gray border to match vertical line */
   box-shadow: none; /* Remove background shadow */
   box-sizing: border-box; /* Include padding in width calculation */
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   z-index: 2; /* Ensure it is above the vertical line */
   display: flex;
   flex-direction: column;
