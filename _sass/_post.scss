@@ -109,6 +109,7 @@
     line-height: 1.2;
     margin: rem(5px) auto rem(10px);
     padding-top: 0;
+    text-align: center;
   }
 
   p.post-subtitle {
@@ -138,7 +139,7 @@
     font-size: rem(13px);
     letter-spacing: 0;
     color: darken($lightGray, 30%);
-    margin: 0 auto;
+    text-align: center;
 
     @include media(">=sm") {
       font-size: rem(15px);
@@ -734,4 +735,122 @@
       }
     }
   }
+}
+/* Experience Timeline Container */
+.experience-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* Central vertical line */
+  &::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ccc; /* Color of the vertical line */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Center the line */
+    z-index: 1; /* Ensure it is above other content */
+  }
+}
+
+/* Experience Card */
+.experience-card {
+  position: relative;
+  width: calc(50% - 30px); /* Adjust width to accommodate spacing */
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); /* Lighter gradient */
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Gray border to match vertical line */
+  box-shadow: none; /* Remove background shadow */
+  box-sizing: border-box; /* Include padding in width calculation */
+  margin-bottom: 20px;
+  z-index: 2; /* Ensure it is above the vertical line */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content inside the card to start */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  position: relative;
+  
+  /* Alternating sides */
+  &:nth-child(odd) {
+    margin-right: 20px; /* Adjust margin for left alignment */
+  }
+  
+  &:nth-child(even) {
+    margin-left: 20px; /* Adjust margin for right alignment */
+    margin-right: 0; /* Remove right margin for even cards */
+  }
+}
+
+
+
+
+
+/* Left Aligned Card */
+.experience-card.left {
+  align-self: flex-start; /* Align to the left of the container */
+  margin-right: 0px; /* Space from the vertical line */
+
+  // /* Arrow pointing to the timeline */
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 20px;
+  //   right: -15px;
+  //   border-style: solid;
+  //   border-width: 8px 0 8px 15px;
+  //   border-color: transparent transparent transparent #f9f9f9;
+  // }
+
+  // /* Dot on the timeline */
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   width: 20px;
+  //   height: 20px;
+  //   background-color: #fff;
+  //   border: 4px solid #ccc;
+  //   border-radius: 50%;
+  //   top: 20px;
+  //   right: -10px;
+  //   z-index: 1;
+  // }
+}
+
+/* Right Aligned Card */
+.experience-card.right {
+  align-self: flex-end; /* Align to the right of the container */
+  margin-left: 0px; /* Space from the vertical line */
+
+  // /* Arrow pointing to the timeline */
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 20px;
+  //   left: -15px;
+  //   border-style: solid;
+  //   border-width: 8px 15px 8px 0;
+  //   border-color: transparent #f9f9f9 transparent transparent;
+  // }
+
+  // /* Dot on the timeline */
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   width: 20px;
+  //   height: 20px;
+  //   background-color: #fff;
+  //   border: 4px solid #ccc;
+  //   border-radius: 50%;
+  //   top: 20px;
+  //   left: -10px;
+  //   z-index: 1;
+  // }
 }
