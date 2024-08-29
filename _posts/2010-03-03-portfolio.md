@@ -110,7 +110,7 @@ I was given free creative direction in the advertisement, so I decided to focus 
 </div>
 <script async src="//www.instagram.com/embed.js"></script>
 
-On top of creating content for Fashion Cents during my internship, I was also frequently tasked with creating content for @friendsplushies, the Instagram accound of the company's plushie brand.
+On top of creating content for Fashion Cents during my internship, I was also frequently tasked with creating content for @friendsplushies, the Instagram account of the company's plushie brand.
 
 This post is one of many I helped designed and created. This post specifically serves as a introduction to one of brand's newest products, and aims at bringing awareness of its release while also making its character more "alive".
 

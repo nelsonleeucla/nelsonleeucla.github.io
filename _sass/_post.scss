@@ -875,34 +875,49 @@
 .education-card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
-  background: #ffffff;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
-  border: 3px solid #ccc;
-  box-shadow: none;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
-  position: relative;
-}
+  overflow: hidden;
 
-/* Card Content */
-.education-card .card-content {
-  flex: 1;
-}
+  @include media(">=sm") {
+    flex-direction: row;
+  }
 
-/* Card Image */
-.education-card .card-image {
-  margin-left: 20px;
-}
+  .card-content {
+    padding: 20px;
+    // flex: 1;
+    margin-right: 0px
+  }
 
-.education-card .card-image img {
-  max-width: 150px;
-  border-radius: 8px;
+  .card-image {
+    // width: 100%;
+    // max-width: 450px;
+    // padding: 20px;
+    // margin-left: 0px;
+    // margin-top: 25px;
+    position: absolute; // Position absolutely
+    // top: auto;
+    right: 16.5%;
+    left: auto;
+    // bottom: auto;
+    max-width: 400px; // Fixed width for image container
+    // display: flex;
+    // justify-content: center;
+
+
+    @include media("<sm") {
+      max-width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
 }
 
 /* Hover effect for Education Cards */

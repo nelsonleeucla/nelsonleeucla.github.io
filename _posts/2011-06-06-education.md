@@ -14,8 +14,20 @@ author:
 <section class="education-timeline">
   {% assign educations = "" | split: "," %}
 
-  {% assign educations = educations | push: "Bachelor of Science in Computer Science|University Name|City, State|September 2020|June 2024|Description of the education experience.|/path/to/your/image1.jpg" %}
-  {% assign educations = educations | push: "High School Diploma|High School Name|City, State|September 2016|June 2020|Description of the education experience.|/path/to/your/image2.jpg" %}
+  {% capture education1 %}
+  Psychology B.A.|University of California, Los Angeles|Los Angeles, CA|September 2023|June 2025|Cumulative 3.89 GPA<br>Transferred from the University of California, Riverside|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  {% endcapture %}
+  {% assign educations = educations | push: education1 %}
+  
+  {% capture education2 %}
+  Psychology B.A. |University of California, Riverside|Riverside, CA|September 2021|June 2023|Cumulative 3.94 GPA|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  {% endcapture %}
+  {% assign educations = educations | push: education2 %}
+
+  {% capture education3 %}
+  High School Diploma|Foothill Highschool|Pleasanton, CA|September 2017|June 2021|Graduated with a weighted 4.0 GPA|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  {% endcapture %}
+  {% assign educations = educations | push: education3 %}
 
   {% for education in educations %}
     {% assign details = education | split: "|" %}
@@ -28,8 +40,11 @@ author:
         <p>{{ details[5] }}</p>
       </div>
       <div class="card-image">
+        <!-- <p>Debug: Image URL is {{ details[6] }}</p> -->
         <img src="{{ details[6] }}" alt="{{ details[0] }} logo">
       </div>
     </div>
   {% endfor %}
 </section>
+
+![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
