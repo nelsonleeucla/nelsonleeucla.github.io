@@ -15,17 +15,17 @@ author:
   {% assign educations = "" | split: "," %}
 
   {% capture education1 %}
-  Psychology B.A.|University of California, Los Angeles|Los Angeles, CA|September 2023|June 2025|Cumulative 3.89 GPA<br>Transferred from the University of California, Riverside|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  Psychology B.A.|University of California, Los Angeles|Los Angeles, CA|September 2023|June 2025|• Cumulative 3.89 GPA<br>• Placed on Dean's Honors List for Fall of 2024<br>• Transferred from the University of California, Riverside|https://res.cloudinary.com/dp1pwklel/image/upload/v1724983104/uclaedit_idhfcz.png
   {% endcapture %}
   {% assign educations = educations | push: education1 %}
   
   {% capture education2 %}
-  Psychology B.A. |University of California, Riverside|Riverside, CA|September 2021|June 2023|Cumulative 3.94 GPA|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  Psychology B.A. |University of California, Riverside|Riverside, CA|September 2021|June 2023|• Cumulative 3.94 GPA<br>• Placed on Chancellor's Honors List for both years of enrollment|https://res.cloudinary.com/dp1pwklel/image/upload/v1724982980/ucrgood_l750vl.png
   {% endcapture %}
   {% assign educations = educations | push: education2 %}
 
   {% capture education3 %}
-  High School Diploma|Foothill Highschool|Pleasanton, CA|September 2017|June 2021|Graduated with a weighted 4.0 GPA|https://res.cloudinary.com/dp1pwklel/image/upload/v1724906986/uclalogo_wwjriz.png
+  High School Diploma|Foothill Highschool|Pleasanton, CA|August 2017|June 2021|• Graduated with a weighted 4.0 GPA|https://res.cloudinary.com/dp1pwklel/image/upload/v1724982336/fhsdone_uyzpjs.png
   {% endcapture %}
   {% assign educations = educations | push: education3 %}
 
