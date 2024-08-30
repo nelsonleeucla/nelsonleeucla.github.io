@@ -1,7 +1,7 @@
 ---
 date: 2018-10-09 12:26:40
 layout: post
-title: Previous experiences
+title: Previous Experiences
 subtitle: 
 description: Overview of past positions and extracurricular activities.
 image: https://res.cloudinary.com/dp1pwklel/image/upload/v1724305710/radio_msluhq.png

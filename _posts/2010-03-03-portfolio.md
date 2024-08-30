@@ -1,7 +1,7 @@
 ---
 date: 2024-08-10 23:48:05
 layout: post
-title: Previous work samples
+title: Previous Work Samples
 subtitle:
 description: Past video projects, social media posts, and photography.
 image: https://res.cloudinary.com/dp1pwklel/image/upload/v1724306215/car2_kbjdu6.png
