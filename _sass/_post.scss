@@ -858,33 +858,38 @@
   @include media(">=sm") {
     flex-direction: column;
   }
-
-  .card-content {
-    padding: 15px 0 0 0;
-  }
   
   .card-image {
-    // width: 100%; /* Ensure the image container takes full width */
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // margin: 0;
-    
-    width: 100%;
-    max-width: 450px;
-    padding: 20px;
-    position:absolute;
-    top: 20%;
-    left: 20%;
-    right: auto;
-    left: auto;
+    // height: auto;
+    // max-height: 150px;
+    // margin-top: auto;
+    // margin-bottom: auto;
+    // margin-right: auto;
+    // margin-left: auto;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0px;
+
+
+    @include media("<sm") {
+      max-height: 100%;
+    }
   }
 
-
   img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    max-height: 100%;
+    width: auto;
+    // PROBLEM SOLUTION!!!
+    display: block !important; 
+  }
+
+  .card-content {
+    margin-top: 5px;
+  }
+
+  h3 {
+    padding-top: 0; /* Remove or adjust top padding */
+    margin-top: 0;  /* Optionally adjust top margin if needed */
   }
 }
 

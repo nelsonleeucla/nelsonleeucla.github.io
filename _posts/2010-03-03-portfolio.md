@@ -118,9 +118,9 @@ This post is one of many I helped designed and created. This post specifically s
 
 ![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
 
-During my time as a resident advisor at UCR Residential Life, I created this large 4x2 ft graphic of Appa, from the show Avatar, for my residents.
+During my time as a resident advisor at UCR Residential Life, I created this large 4x2 feet graphic of Appa from the show "Avatar: The Last Airbender".
 
-I knew that many of my incoming residents would also be fans of Avatar, so I decided that it would be a great choice for my floor's theme as it would allow them to easily find common ground with their new neighbors and environment. I chose Appa for my large design as he was my personal favorite character from the show, and because I thought it would be cool for my residents to see a comforting character hanging on the wall (and seemingly flying leisurely) as they come back home.
+I chose this show as my floor's theme as I knew that it was popular enough for many of my incoming residents to be familiar with it, which would allow them to easily find common ground with their new neighbors and environment. I specifically chose Appa for my large design as I believed it would be cool for my residents to see a comforting character hanging on the wall (and seemingly flying leisurely) as they come back home.
 
 
 
