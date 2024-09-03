@@ -216,3 +216,49 @@
     padding: rem(15px);
   }
 }
+
+// Reccomendations
+.recommendations-container {
+  width: auto;
+  max-width: 1300px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute space between cards */
+  gap: 0px; /* Space between cards */
+}
+
+.recommendation-card {
+  max-width: 600px;
+  width: calc(50% - 10px); /* Two cards per row with spacing */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  padding: 0px;
+  background-color: transparent; /* Transparent background */
+  color: white; /* White text color */
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  text-align: left; /* Align text to the left */
+  font-size: larger;
+
+  @media (max-width: 768px) {
+    .recommendation-card {
+      width: 100%; /* One card per row on smaller screens */
+    }}
+}
+
+.recommendation-text {
+  margin-bottom: 10px; /* Space between text and author info */
+}
+
+.author-info {
+  text-align: right; /* Align author info to the right */
+}
+
+
+.white-line {
+  width: 1300px;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto; /* Center the line horizontally */}
