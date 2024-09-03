@@ -893,6 +893,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .skills-card {
+    width: 100%; /* One card per row on smaller screens */
+  }
+}
+
 /* Hover effect for Skill Cards */
 .skill-card:hover {
   background: #e0f7fa;

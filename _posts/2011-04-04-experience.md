@@ -1,5 +1,5 @@
 ---
-date: 2018-10-09 12:26:40
+date: 2024-08-15 23:57:59
 layout: post
 title: Previous Experiences
 subtitle: 

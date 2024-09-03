@@ -1,5 +1,5 @@
 ---
-date: 2024-08-10 23:48:05
+date: 2024-08-15 23:58:59
 layout: post
 title: Previous Work Samples
 subtitle:
