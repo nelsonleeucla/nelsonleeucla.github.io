@@ -12,7 +12,7 @@ author:
 paginate: true
 ---
 
-This photo captures a moment from a video project I completed as part of a recruitment challenge. Given 48 hours, I was tasked with creating a video that showcased my video editing skills. I chose to produce an advertisement for my own car, using this opportunity to demonstrate creativity and technical proficiency. You can watch the final video below:
+This photo captures a moment from a video project I completed as part of a recruitment challenge. Given 48 hours, I was tasked with creating a video that showcased my video editing skills. To align with the role's focus on video content creation for product showcases, I chose to produce an advertisement for my car. You can watch the final video below:
 
 ## 48 Hour Video Creation Challenge: <br>Honda Accord Advertisement
 
@@ -20,15 +20,9 @@ This photo captures a moment from a video project I completed as part of a recru
 
 > *Captured* with:<br> - **Iphone 15** (Video) <br> - **Pentax K-30** with **18-55mm f/3.5-5.6 AL lens** (Photos)<br>*Edited* with: <br> - **Adobe Premiere Pro** (Video) <br> - **Adobe Lightroom Classic** (Photos)
 
-To create an impactful advertisement for a car resale listing on platforms cush as Craigslist or Facebook Marketplace, I focused on highlighting not only the technical features of my car but also its unique strengths and its potential as a trusted companion. 
 
-The Honda Accord is not the fastest, stylish, or even most efficient car. However, it does possess a reputation to last almost forever (up to 200,000-300,000 miles). This point is what I decided to focus on for the direction of my advertisement. A potential car buyer could see a listing for a sportier Mazda or a tougher looking Ford at a similar price. While I can't convince them that my car is just as, or even more, sporty and tough, I can convince them that my car's reliablity is something those cars definitely can't beat.
+The 2011 Honda Accord is not known to be the fastest, newest, or most stylish car. However, it is well-renowed for its reliability, with many lasting up to 200,000 to 300,000 miles. I decided that leveraging this reputation would be a great focus for my advertisement. Additionally, I decided that emphasizing my car's appeal as more than just a vehicle would be a great focus as well. Through close-up shots and slo-motion sequences during golden hour, accompanied by an uplifting and comforting soundtrack, I aimed to portray my car as a character with qualities of dependability and trustworthiness. These two qualities are cornerstones of a great companion, and I hoped to convince potentential buyers that my car can become just that for them.
 
-In addition to its reliability, I decided to focus on it's appeal of being more than just a car to potential buyers: It can even be their best friend. While many other Honda Accord listings are available, potential buyers will distinguish mine as this video allows them to visualize having an intimate companionship with my specific car. 
-
-The choice of the soundtrack...
-Through close-up shots and slo-mos, they can become much more easily immersed in this visualization. My personal anecdote was added to demonstrate the car's success in serving as a companion, and it further emphasizes to potential buyers how it could do the same for them.
-The choice of lighting...
 
 ## Fashion Cents Paid Advertisement
 
@@ -36,12 +30,12 @@ The choice of lighting...
 
 > *Captured with:* <br> - **Iphone 15** <br>*Edited with:* <br> - **CapCut**
 
-During my social media marketing internship at Friends Collection, I was given the task of creating a paid advertisement for their upcoming boardgame at the time, Fashion Cents.
+During my social media marketing internship at Friends Collection, I was tasked with creating a paid advertisement for their upcoming board game at the time, Fashion Cents. I was given full creative direction in the production of the advertisement. 
 
-I was given free creative direction in the advertisement, so I decided to focus on the game's most appealing features: its fast pace, goofiness, and amazing art.
+I decided to highlight the game's most distinctive features: its unique art and goofiness. Knowing that the video was intended for Instagram Reels and Facebook—platforms where capturing and maintaining viewer attention is quite difficult—I implemented a fast-paced approach, ensuring each shot featured engaging visuals.
 
 ## Reddit Post for Fashion Cents
-<div style="width: 800px; margin: 30px auto;">
+<div style="width: auto; max-width: 800px; margin: 30px auto;">
   <blockquote class="reddit-embed-bq" style="height:500px;" data-embed-height="740">
     <a href="https://www.reddit.com/r/tabletopgamedesign/comments/1bc36jl/update_choosing_between_legibility_or_player/">
       Update: Choosing between Legibility or Player Freedom
@@ -51,6 +45,8 @@ I was given free creative direction in the advertisement, so I decided to focus 
   </blockquote>
   <script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 </div>
+
+During my time at Friends Collection, I also frequently created and facilitated Reddit posts to raise awareness and gather feedback for Fashion Cents among our target audience. The Reddit post above is an example of one of these efforts.
 
 ## Instagram Post for @friendsplushies
 
@@ -110,20 +106,10 @@ I was given free creative direction in the advertisement, so I decided to focus 
 </div>
 <script async src="//www.instagram.com/embed.js"></script>
 
-On top of creating content for Fashion Cents during my internship, I was also frequently tasked with creating content for @friendsplushies, the Instagram account of the company's plushie brand.
+In addition to creating content for Fashion Cents during my time at Friends Collection, I also designed Instagram posts for their plushie products. The post above was created to introduce one of their newest plushies and to raise awareness of its release.
 
-This post is one of many I helped designed and created. This post specifically serves as a introduction to one of brand's newest products, and aims at bringing awareness of its release while also making its character more "alive".
-
-## Resident Advisor Welcome Poster
+## Resident Advisor Appa Poster
 
 ![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
 
-During my time as a resident advisor at UCR Residential Life, I created this large 4x2 feet graphic of Appa from the show "Avatar: The Last Airbender".
-
-I chose this show as my floor's theme as I knew that it was popular enough for many of my incoming residents to be familiar with it, which would allow them to easily find common ground with their new neighbors and environment. I specifically chose Appa for my large design as I believed it would be cool for my residents to see a comforting character hanging on the wall (and seemingly flying leisurely) as they come back home.
-
-
-
-
-
-
+During my time as a resident advisor at UCR Residential Life, I was responsible for choosing a theme for the dormitory hall I oversaw. I decided on the show "Avatar: The Last Airbender", as I knew that it was popular enough for many of my incoming residents to be familiar with. To implement this theme into my hall, I created this large 4x2 feet graphic of Appa, a character from the show.
