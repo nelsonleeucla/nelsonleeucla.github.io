@@ -796,7 +796,8 @@
       display: none; /* Hide central line on mobile */
     }
     display:flex;
-    align-items:center;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .experience-card {
@@ -831,9 +832,6 @@
     grid-template-columns: 1fr; /* 1 card per row on mobile */
     width: 90%
   }
-  // .skills-card {
-  //   width: 90%;
-  // }
 }
 
 /* Skill Card */
@@ -945,6 +943,15 @@
       height: auto;
       display: block;
     }
+  }
+}
+
+/* Media query for education cards */
+@media (max-width: 767px) {
+  .education-timeline {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
