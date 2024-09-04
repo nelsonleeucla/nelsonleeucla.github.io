@@ -795,12 +795,12 @@
     &::after {
       display: none; /* Hide central line on mobile */
     }
+    display:flex;
+    align-items:center;
   }
 
   .experience-card {
-    width: 90%; /* Full width on mobile */
-    margin-left: auto; /* Reset margins */
-    margin-right: auto;
+    width: 90%; /* Full width on mobile */    
   }
 }
 
@@ -829,10 +829,11 @@
 @media (max-width: 767px) {
   .skills-grid {
     grid-template-columns: 1fr; /* 1 card per row on mobile */
+    width: 90%
   }
-  .skills-card {
-    width: 90%;
-  }
+  // .skills-card {
+  //   width: 90%;
+  // }
 }
 
 /* Skill Card */
