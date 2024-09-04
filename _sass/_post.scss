@@ -1028,3 +1028,29 @@
     width: 90%; /* Adjust width for smaller screens */
   }
 }
+
+// For images on post pages
+.image-container-post {
+  width: 100%;
+  max-width: 780px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:0px;
+  margin-top:15px;
+  padding: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block !important;
+    // margin-bottom: 0px; // Space between images
+  }
+}
+
+// Target blockquotes and nested lists
+blockquote,
+li > ul,
+li > ol {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}

@@ -110,6 +110,8 @@ In addition to creating content for Fashion Cents during my time at Friends Coll
 
 ## Resident Advisor Appa Poster
 
-![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
+<div class="image-container-post">
+  <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png" alt="Appa">
+</div>
 
 During my time as a resident advisor at UCR Residential Life, I was responsible for choosing a theme for the dormitory hall I oversaw. I decided on the show "Avatar: The Last Airbender", as I knew that it was popular enough for many of my incoming residents to be familiar with. To implement this theme into my hall, I created this large 4x2 feet graphic of Appa, a character from the show.

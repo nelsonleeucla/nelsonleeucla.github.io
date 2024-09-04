@@ -3,7 +3,7 @@ date: 2024-08-15 23:57:59
 layout: post
 title: Previous Experiences
 subtitle: 
-description: Overview of past positions and extracurricular activities.
+description: An overview of past positions and extracurricular activities.
 image: https://res.cloudinary.com/dp1pwklel/image/upload/v1724305710/radio_msluhq.png
 optimized_image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_380,h_200/v1724305710/radio_msluhq.png
 category: experience

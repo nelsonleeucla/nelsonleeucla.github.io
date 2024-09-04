@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
     {% include head.html %}
-    <body class="has-push-menu {% if page.url == '/experience/' or page.url == '/skills/' or page.url == '/education/' %}no-media{% else %}with-media{% endif %}">
+    <!-- Blocks out image on certain pages -->
+    <body class="has-push-menu {% if page.url == '/experience/' or page.url == '/welcome/' or page.url == '/skills/' or page.url == '/education/' %}no-media{% else %}with-media{% endif %}">
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
