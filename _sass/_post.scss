@@ -795,13 +795,20 @@
     &::after {
       display: none; /* Hide central line on mobile */
     }
-    display:flex;
-    margin-right: auto;
-    margin-left: auto;
+    align-items: center;
   }
 
   .experience-card {
-    width: 90%; /* Full width on mobile */    
+    width: 90%; /* Full width on mobile */ 
+    &:nth-child(odd) {
+      margin-right: auto; /* Adjust margin for left alignment */
+      margin-left: auto;
+    }
+    
+    &:nth-child(even) {
+      margin-left: auto; /* Adjust margin for right alignment */
+      margin-right: auto; /* Remove right margin for even cards */
+    }   
   }
 }
 
@@ -953,6 +960,9 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .education-card {
+    display: flex;
+    flex-direction: column;}
 }
 
 /* Hover effect for Education Cards */
