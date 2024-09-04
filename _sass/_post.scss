@@ -789,29 +789,6 @@
   }
 }
 
-/* Media query for mobile devices */
-@media (max-width: 767px) {
-  .experience-timeline {
-    &::after {
-      display: none; /* Hide central line on mobile */
-    }
-    align-items: center;
-  }
-
-  .experience-card {
-    width: 90%; /* Full width on mobile */ 
-    &:nth-child(odd) {
-      margin-right: auto; /* Adjust margin for left alignment */
-      margin-left: auto;
-    }
-    
-    &:nth-child(even) {
-      margin-left: auto; /* Adjust margin for right alignment */
-      margin-right: auto; /* Remove right margin for even cards */
-    }   
-  }
-}
-
 /* Left Aligned Card */
 .experience-card.left {
   align-self: flex-start; /* Align to the left of the container */
@@ -822,6 +799,39 @@
 .experience-card.right {
   align-self: flex-end; /* Align to the right of the container */
   margin-left: 0px; /* Space from the vertical line */
+}
+
+/* Media query for mobile devices EXPERIENCE*/
+@media (max-width: 767px) {
+  .experience-timeline {
+    &::after {
+      display: none; /* Hide central line on mobile */
+    }
+    width: 90%;
+  }
+
+  // .experience-card {
+  //   width: 90%; /* Full width on mobile */ 
+  //   &:nth-child(odd) {
+  //     margin-right: auto; /* Adjust margin for left alignment */
+  //     margin-left: auto;
+  //   }
+    
+  //   &:nth-child(even) {
+  //     margin-left: auto; /* Adjust margin for right alignment */
+  //     margin-right: auto; /* Remove right margin for even cards */
+  //   }   
+  // }
+  // .experience-card.left {
+  //   // align-self: flex-start; /* Align to the left of the container */
+  //   margin-right: auto; 
+  //   margin-left: auto;
+  // }
+  // .experience-card.right {
+  //   // align-self: flex-end; /* Align to the right of the container */
+  //   margin-left: auto; 
+  //   margin-right: auto; 
+  // }
 }
 
 /* Skills Grid Container */
@@ -962,7 +972,12 @@
   }
   .education-card {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
+  .education-card .card-image {
+    width: 60%;
+    align-items: center;
+  }
 }
 
 /* Hover effect for Education Cards */
