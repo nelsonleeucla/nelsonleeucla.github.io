@@ -807,31 +807,30 @@
     &::after {
       display: none; /* Hide central line on mobile */
     }
-    width: 90%;
   }
 
-  // .experience-card {
-  //   width: 90%; /* Full width on mobile */ 
-  //   &:nth-child(odd) {
-  //     margin-right: auto; /* Adjust margin for left alignment */
-  //     margin-left: auto;
-  //   }
+  .experience-card {
+    width: 90%; /* Full width on mobile */ 
+    &:nth-child(odd) {
+      margin-right: auto; /* Adjust margin for left alignment */
+      margin-left: auto;
+    }
     
-  //   &:nth-child(even) {
-  //     margin-left: auto; /* Adjust margin for right alignment */
-  //     margin-right: auto; /* Remove right margin for even cards */
-  //   }   
-  // }
-  // .experience-card.left {
-  //   // align-self: flex-start; /* Align to the left of the container */
-  //   margin-right: auto; 
-  //   margin-left: auto;
-  // }
-  // .experience-card.right {
-  //   // align-self: flex-end; /* Align to the right of the container */
-  //   margin-left: auto; 
-  //   margin-right: auto; 
-  // }
+    &:nth-child(even) {
+      margin-left: auto; /* Adjust margin for right alignment */
+      margin-right: auto; /* Remove right margin for even cards */
+    }   
+  }
+  .experience-card.left {
+    // align-self: flex-start; /* Align to the left of the container */
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  .experience-card.right {
+    // align-self: flex-end; /* Align to the right of the container */
+    margin-left: auto; 
+    margin-right: auto; 
+  }
 }
 
 /* Skills Grid Container */
@@ -976,7 +975,8 @@
   }
   .education-card .card-image {
     width: 60%;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
