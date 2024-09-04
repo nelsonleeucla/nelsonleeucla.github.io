@@ -195,59 +195,6 @@
                 });
             });
         </script>
-        <!-- <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const timeline = document.querySelector('.experience-timeline');
-                
-                function createBlueLight() {
-                    const light = document.createElement('div');
-                    light.classList.add('blue-light');
-                    
-                    // Append the light to the timeline container
-                    timeline.appendChild(light);
-                    
-                    // Remove the light after animation ends (7.5 seconds)
-                    setTimeout(() => {
-                        timeline.removeChild(light);
-                    }, 7500);
-                }
-            
-                // Start the first light immediately
-                createBlueLight();
-            
-                // Add a new light every 7.5 seconds
-                setInterval(createBlueLight, 7500);
-            });
-            </script>
-            
-            <style>
-            /* Additional styles for dynamically created blue lights */
-            .blue-light {
-                position: absolute;
-                width: 6px;
-                height: 60px;
-                background: radial-gradient(circle, rgba(0, 71, 171, 0.5) 50%, rgba(0, 71, 171, 0) 100%);
-                top: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                z-index: 2;
-                animation: moveLight 7.5s linear forwards;
-            }
-            
-            @keyframes moveLight {
-                0% {
-                    top: 0;
-                    opacity: 1;
-                }
-                95% {
-                    opacity: 1;
-                }
-                100% {
-                    top: 100%;
-                    opacity: 0;
-                }
-            }
-            </style> -->
             <!-- For vertical line -->
             <script>
                 document.addEventListener('DOMContentLoaded', function() {
@@ -301,6 +248,10 @@
                         opacity: 0; /* Fade out the light at the bottom */
                     }
                 }
+
+                @media (max-width: 767px) {
+                    .blue-light {
+                    display: none;}}
                 </style>
                 
         <!-- For skills section -->
