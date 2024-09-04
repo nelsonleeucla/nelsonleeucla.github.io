@@ -47,4 +47,3 @@ author:
   {% endfor %}
 </section>
 
-![Welcome Poster](https://res.cloudinary.com/dp1pwklel/image/upload/v1724632715/appa_fihffc.png)
