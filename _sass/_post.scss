@@ -758,35 +758,6 @@
     transform: translateX(-50%); /* Center the line */
     z-index: 1; /* Ensure it is above other content */
   }
-
-  // /* Blue light animation */
-  // &::before {
-  //   content: '';
-  //   position: absolute;
-  //   width: 6px;
-  //   height: 100px; /* Length of the blue light */
-  //   background: radial-gradient(circle, rgba(0, 71, 171, 0.5) 50%, rgba(0, 71, 171, 0) 100%);
-  //   top: 0;
-  //   left: 50%;
-  //   transform: translateX(-50%);
-  //   animation: moveLight 20s linear infinite;
-  //   z-index: 2; /* Place it above the gray line */
-  //   opacity: 0;
-  // }
-
-  // @keyframes moveLight {
-  //   0% {
-  //     top: 0;
-  //     opacity: 1;
-  //   }
-  //   95% {
-  //     opacity: 1;
-  //   }
-  //   100% {
-  //     top: 100%;
-  //     opacity: 0; /* Fade out the light at the bottom */
-  //   }
-  // }
 }
 
 /* Experience Card */
@@ -815,6 +786,20 @@
   &:nth-child(even) {
     margin-left: 20px; /* Adjust margin for right alignment */
     margin-right: 0; /* Remove right margin for even cards */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .experience-timeline {
+    &::after {
+      left: 0; /* Keep the line on the left */
+    }
+  }
+
+  .experience-card {
+    width: 100%; /* Full width on mobile */
+    margin-left: 20px; /* Ensure space between the line and the card */
   }
 }
 
@@ -1000,3 +985,9 @@
   margin: 10px auto;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .line-red, .line-blue, .line-green {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
