@@ -793,13 +793,14 @@
 @media (max-width: 767px) {
   .experience-timeline {
     &::after {
-      left: 0; /* Keep the line on the left */
+      display: none; /* Hide central line on mobile */
     }
   }
 
   .experience-card {
     width: 100%; /* Full width on mobile */
-    margin-left: 20px; /* Ensure space between the line and the card */
+    margin-left: 0; /* Reset margins */
+    margin-right: 0;
   }
 }
 
