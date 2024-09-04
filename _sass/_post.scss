@@ -113,15 +113,17 @@
   }
 
   p.post-subtitle {
-    color: darken($lightGray, 30%);
-    font-size: rem(17px);
-    margin: rem(10px) auto;
-    line-height: 1.6;
+    // Removed the post subtitle
+    // color: darken($lightGray, 30%);
+    // font-size: rem(17px);
+    // margin: rem(10px) auto;
+    // line-height: 1.6;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    // @include media(">=sm") {
+    //   font-size: rem(20px);
+  // }
+    display:none;
     }
-  }
 
   img.post-cover {
     padding: 0;
