@@ -798,7 +798,7 @@
   }
 
   .experience-card {
-    width: 100%; /* Full width on mobile */
+    width: 95%; /* Full width on mobile */
     margin-left: 0; /* Reset margins */
     margin-right: 0;
   }
@@ -829,6 +829,9 @@
 @media (max-width: 767px) {
   .skills-grid {
     grid-template-columns: 1fr; /* 1 card per row on mobile */
+  }
+  .skills-card {
+    width: 90%
   }
 }
 
