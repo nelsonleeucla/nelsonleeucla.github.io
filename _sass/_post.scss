@@ -840,6 +840,12 @@
   padding: 30px 0;
 }
 
+@media (max-width: 767px) {
+  .skills-grid {
+    grid-template-columns: 1fr; /* 1 card per row on mobile */
+  }
+}
+
 /* Skill Card */
 .skill-card {
   padding: 20px;
@@ -893,11 +899,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .skills-card {
-    width: 100%; /* One card per row on smaller screens */
-  }
-}
 
 /* Hover effect for Skill Cards */
 .skill-card:hover {
