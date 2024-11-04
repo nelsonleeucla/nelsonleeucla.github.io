@@ -34,6 +34,16 @@ paginate: true
   </blockquote>
 </div>
 
+<style>
+  @media (max-width: 768px) {
+    /* Stack the posts vertically on screens smaller than 768px */
+    div[style*="display: flex"] {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+</style>
+
 <script async src="//www.instagram.com/embed.js"></script>
 
 The @uclaesports post is an event announcement I assisted in designing and posting during my time as the Marketing Coordinator for UCLA's official esports team. The announcement was also promoted on Facebook and Twitter.
