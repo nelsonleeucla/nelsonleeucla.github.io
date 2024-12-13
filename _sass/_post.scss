@@ -1056,3 +1056,117 @@ li > ol {
   margin-top: 0 !important;
   margin-bottom: 10px !important;
 }
+
+
+//For Portfolio
+
+// Dropdown styles
+details {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  &[open] summary::after {
+    content: "–"; /* Show minus when open */
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Bigger box size */
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+
+  summary::after {
+    content: "+"; /* Show plus when closed */
+    font-size: 1.5em;
+    color: #007acc;
+  }
+
+  &:hover {
+    border-color: #007acc;
+  }
+}
+
+.details-content {
+  margin: 10px 0;
+  padding: 15px;
+  border-top: 1px solid #e0e0e0;
+
+  /* Middle alignment for content within dropdown */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center */
+  justify-content: center; /* Vertically center */
+  text-align: center; /* Center-align text within this container */
+}
+
+// Scope h3, p, and iframe only within .details-content
+.details-content h3,
+.details-content p,
+.details-content iframe,
+.details-content .work-samples {
+  margin: 10px 0; /* Consistent spacing within dropdown */
+  text-align: left; /* Middle alignment applies only to layout, not text alignment */
+}
+
+// Instagram reels grid
+.work-samples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensure three items in a row */
+  gap: 20px;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin-top: 20px;
+}
+
+.work-samples.blockquote {
+  justify-self: center; /* Center-align smaller elements */
+}
+
+// For rows with fewer than three items, ensure proper centering
+@media (max-width: 768px) {
+  .work-samples {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+  }
+}
+
+// Align Instagram first row properly in the center
+.details-content .work-samples:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Fix tweets layout */
+.tweets-row {
+  display: flex; /* Flexible layout for tweets */
+  flex-direction: column; /* Stack tweets vertically by default */
+  gap: 20px; /* Add spacing between tweets */
+  width: 100%; /* Ensure full width of the container */
+  margin: 0 auto; /* Center-align tweets row */
+}
+
+.tweets-row blockquote {
+  width: 100%; /* Ensure tweets take full width of parent */
+  max-width: 700px; /* Optional: Limit max width to improve readability */
+  margin: 0 auto; /* Center-align each tweet */
+  text-align: left; /* Keep text left-aligned for clarity */
+}
+
+@media (min-width: 768px) {
+  /* On larger screens, display tweets in a row */
+  .tweets-row {
+    flex-direction: row; /* Tweets side by side */
+    justify-content: space-between; /* Add space between tweets */
+    gap: 20px;
+  }
+}
