@@ -42,6 +42,8 @@ paginate: true
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCpkDJbBd4l/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
     </div>
     <script async src="//www.instagram.com/embed.js"></script>
+    <h3>Hosting California Rivalries</h3>
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734147822/Calrivalries_d5r2bc.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <!-- Twitter Posts Row -->
     <h3>UCEI Online Qualifiers Tweets</h3>
     <div class="work-samples tweets-row">
