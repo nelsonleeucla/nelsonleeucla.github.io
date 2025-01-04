@@ -97,11 +97,16 @@ paginate: true
   <div class="details-content">
     <h3>Minor Strut In-station Performance TikTok Promotion</h3>
     <iframe src="https://drive.google.com/file/d/1hh0ibdepgKu1j2F-R741Dsn_JXxOp-Cw/preview" width="640" height="480" allow="autoplay"></iframe>
-  </div>
       <h3>Smooth Jas In-station Performance Photographs</h3>
       <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734055650/smaller1_tcntwo.png" alt="Image description" style="max-width:800px; height:auto; display:block; margin:50;">
       <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734055650/smaller2_cz5dkl.png" alt="Image description" style="max-width:800px; height:auto; display:block; margin:50;">
       <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734056061/smaller5_hc09lv.png" alt="Image description" style="max-width:500px; height:auto; display:block; margin:50;">
       <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734055650/smaller3_mtp8of.png" alt="Image description" style="max-width:800px; height:auto; display:block; margin:50;">
+      <br>
+        <div style="text-align: center;">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DEYxY7PPGw0/" style="max-width: 500px; display: inline-block;"></blockquote>
+        </div>
+        <script async src="//www.instagram.com/embed.js"></script>
+      </div>
   <br>
 </details>
