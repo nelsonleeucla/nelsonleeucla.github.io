@@ -16,6 +16,15 @@ paginate: true
 <details>
   <summary>Esports Marketing Coordinator - UCLA Recreation</summary>
   <div class="details-content">
+    <h3>Marketing and Photography for University of California Esports Initiative 2025 at Redbull HQ</h3>
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444481/team_vscfv7.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444951/REDBULLHQ_bsglx2.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <div class="work-samples tweets-row">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Your OVERWATCH 2 Champions for UCEI 2025 presented by <a href="https://twitter.com/Xfinity?ref_src=twsrc%5Etfw">@Xfinity</a> are…<br><br>🎉 <a href="https://twitter.com/UCIEsports?ref_src=twsrc%5Etfw">@UCIEsports</a> 🎉<br><br>Congratulations for the big victory 💫and <a href="https://twitter.com/owexcal?ref_src=twsrc%5Etfw">@owexcal</a> for being the <a href="https://twitter.com/msiUSA?ref_src=twsrc%5Etfw">@msiUSA</a> MVP 🙌 <a href="https://t.co/JW4zrKtUs0">pic.twitter.com/JW4zrKtUs0</a></p>&mdash; University of California Esports Initiative (@UCEInitiative) <a href="https://twitter.com/UCEInitiative/status/1881154858012799450?ref_src=twsrc%5Etfw">January 20, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Game☝️goes to <a href="https://twitter.com/UCSDesports?ref_src=twsrc%5Etfw">@UCSDesports</a> 👀 <a href="https://t.co/IInmxXlkfW">pic.twitter.com/IInmxXlkfW</a></p>&mdash; University of California Esports Initiative (@UCEInitiative) <a href="https://twitter.com/UCEInitiative/status/1880807833631129848?ref_src=twsrc%5Etfw">January 19, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check out the <a href="https://twitter.com/Xfinity?ref_src=twsrc%5Etfw">@Xfinity</a> booth this weekend with its amazing prizes 🎁<br><br>Ranging from exclusive UCEI 2025 mousepads to PopSockets, it’s definitely a booth you don’t want to miss 💫 <a href="https://t.co/iZvL1gOFju">pic.twitter.com/iZvL1gOFju</a></p>&mdash; University of California Esports Initiative (@UCEInitiative) <a href="https://twitter.com/UCEInitiative/status/1880361514038890770?ref_src=twsrc%5Etfw">January 17, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <h3>California Rivalries 2024 Promotional Content</h3>
     <!-- Instagram Posts Row 1 -->
     <div class="work-samples">
@@ -31,9 +40,11 @@ paginate: true
     </div>
     <script async src="//www.instagram.com/embed.js"></script>
     <h3>Hosting California Rivalries</h3>
-    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1734147822/Calrivalries_d5r2bc.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444301/IMG_3448_wmjtm4.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3553_df6vkq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3556_v4eyuq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <!-- Twitter Posts Row -->
-    <h3>UCEI Online Qualifiers Tweets</h3>
+    <h3>University of California Esports Initiative Online Qualifiers Tweets</h3>
     <div class="work-samples tweets-row">
       <blockquote class="twitter-tweet">
         <p lang="en" dir="ltr">🛣️Road to LAN, UCEI Online Qualifiers for Overwatch 2 continues today at 5PM PT🏆!<br><br>
