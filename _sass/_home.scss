@@ -263,3 +263,38 @@
   height: 1px;
   background-color: white;
   margin-bottom: 30px}
+
+  .photography-container {
+    width: 50%; /* Fill 75% of the page */
+    max-width: 100%; /* Max out on smaller screens */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    flex-wrap: wrap; /* Allow photos to wrap onto new rows */
+    gap: rem(20px); /* Small gap between photos */
+    justify-content: space-between; /* Distribute photos evenly across rows */
+  
+    .photo-box {
+      flex: 0 0 calc(50% - rem(10px)); /* Ensure two photos per row */
+      max-width: calc(50% - rem(10px)); /* Ensure consistent width for two photos */
+      box-sizing: border-box;
+  
+      img {
+        width: 100%; /* Ensure photos fill their containers */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 0; /* Remove rounded corners */
+        box-shadow: none; /* Remove shadow for clean edges */
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .photography-container {
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    .photo-box {
+      flex: 1 0 100%; /* Single photo per row on smaller screens */
+      max-width: 100%; /* Ensure consistent max width */
+    }
+  }
+  
