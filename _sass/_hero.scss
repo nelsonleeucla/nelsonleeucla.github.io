@@ -6,15 +6,6 @@
   width: 100%;
   height: 100vh;
 
-  // Default background (for larger screens)
-  background-image: url(../../assets/img/hero-background.jpg);
-
-  // Black background for smaller screens
-  @include media("<sm") {
-    background-image: none;
-    background-color: black;
-  }
-
   +#grid {
     margin-top: rem(-80px);
   }
@@ -31,18 +22,10 @@
   .pixels {
     opacity: 0.8;
     background-image: url(../../assets/img/pixels.png);
-
-    @include media("<sm") {
-      display: none; // Hide the pixels effect on small screens
-    }
   }
 
   .gradient {
     background-image: linear-gradient(0deg, rgba(20, 20, 20, 1) 5%, rgba(0, 0, 0, 0) 30%);
-
-    @include media("<sm") {
-      display: none; // Hide the gradient effect on small screens
-    }
   }
 
   .content {
