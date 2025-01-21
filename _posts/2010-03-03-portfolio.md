@@ -12,18 +12,6 @@ author:
 paginate: true
 ---
 
-<!-- Dropdown sections for each role -->
-<!-- <details>
-  <summary>Esports Marketing Coordinator</summary>
-  <div class="details-content">
-    <h3>Instagram Post Samples</h3>
-    <div class="work-samples">
-      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DB2ClH4TfFl/" style="max-width: 300px;"></blockquote>
-      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCSYQ6CyKRr/" style="max-width: 300px;"></blockquote>
-    </div>
-    <script async src="//www.instagram.com/embed.js"></script>
-  </div>
-</details> -->
 <br>
 <details>
   <summary>Esports Marketing Coordinator - UCLA Recreation</summary>

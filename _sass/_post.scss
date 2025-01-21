@@ -1100,42 +1100,46 @@ details {
   padding: 15px;
   border-top: 1px solid #e0e0e0;
 
-  /* Middle alignment for content within dropdown */
   display: flex;
   flex-direction: column;
   align-items: center; /* Horizontally center */
   justify-content: center; /* Vertically center */
   text-align: center; /* Center-align text within this container */
+  width: 100%; /* Ensure full width */
 }
 
-// Scope h3, p, and iframe only within .details-content
+// Scope h3, p, iframe, and .work-samples only within .details-content
 .details-content h3,
 .details-content p,
 .details-content iframe,
 .details-content .work-samples {
-  margin: 10px 0; /* Consistent spacing within dropdown */
-  text-align: left; /* Middle alignment applies only to layout, not text alignment */
+  margin: 10px 0;
+  text-align: left;
 }
 
 // Instagram reels grid
 .work-samples {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ensure three items in a row */
+  grid-template-columns: repeat(3, 1fr); /* Three items in a row on larger screens */
   gap: 20px;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  margin-top: 20px;
+  width: 100%; /* Ensure full container width */
 }
 
-.work-samples.blockquote {
-  justify-self: center; /* Center-align smaller elements */
-}
-
-// For rows with fewer than three items, ensure proper centering
+// Adjust Instagram and Tweet containers for mobile screens
 @media (max-width: 768px) {
   .work-samples {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr; /* Single column layout for Instagram posts on smaller screens */
     gap: 15px;
+    width: 90%; /* Scale posts to fit 90% of the container */
+    margin: 0 auto;
+  }
+
+  .tweets-row blockquote {
+    width: 90%; /* Scale tweets to fit 90% of the container on mobile */
+    max-width: none;
+    margin: 0 auto;
   }
 }
 
@@ -1146,19 +1150,19 @@ details {
   gap: 20px;
 }
 
-/* Fix tweets layout */
+/* Tweets layout */
 .tweets-row {
   display: flex; /* Flexible layout for tweets */
   flex-direction: column; /* Stack tweets vertically by default */
-  gap: 20px; /* Add spacing between tweets */
-  width: 100%; /* Ensure full width of the container */
-  margin: 0 auto; /* Center-align tweets row */
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .tweets-row blockquote {
   width: 100%; /* Ensure tweets take full width of parent */
-  max-width: 700px; /* Optional: Limit max width to improve readability */
-  margin: 0 auto; /* Center-align each tweet */
+  max-width: 700px;
+  margin: 0 auto;
   text-align: left; /* Keep text left-aligned for clarity */
 }
 
@@ -1166,7 +1170,21 @@ details {
   /* On larger screens, display tweets in a row */
   .tweets-row {
     flex-direction: row; /* Tweets side by side */
-    justify-content: space-between; /* Add space between tweets */
+    justify-content: space-between;
     gap: 20px;
+  }
+}
+
+/* Images within the container */
+.details-content img {
+  width: 60%; /* Fit images to 60% of the container on larger screens */
+  height: auto;
+  margin: 20px auto; /* Center-align images */
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .details-content img {
+    width: 90%; /* Fit images to 90% of the container on smaller screens */
   }
 }
