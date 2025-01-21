@@ -38,6 +38,7 @@ paginate: true
     </div>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <h3>California Rivalries 2024 Promotional Content</h3>
+    <br>
     <!-- Instagram Posts Row 1 -->
     <!-- <div class="work-samples">
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DB2ClH4TfFl/" style="max-width: 300px;"></blockquote>
