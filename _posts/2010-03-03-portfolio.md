@@ -39,7 +39,7 @@ paginate: true
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCpkDJbBd4l/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
     </div>
     <script async src="//www.instagram.com/embed.js"></script>
-    <h3>Hosting California Rivalries</h3>
+    <h3>Hosting California Rivalries 2024</h3>
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444301/IMG_3448_wmjtm4.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3553_df6vkq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3556_v4eyuq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">

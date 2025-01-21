@@ -1127,13 +1127,23 @@ details {
   width: 100%; /* Ensure full container width */
 }
 
-// Adjust Instagram and Tweet containers for mobile screens
+.work-samples blockquote.instagram-media {
+  width: 100%; /* Default full width for larger screens */
+  max-width: 300px; /* Restrict maximum size */
+  margin: 0 auto; /* Center-align individual posts */
+}
+
 @media (max-width: 768px) {
   .work-samples {
-    grid-template-columns: 1fr; /* Single column layout for Instagram posts on smaller screens */
+    grid-template-columns: 1fr; /* Single column layout for Instagram posts */
     gap: 15px;
-    width: 75%; /* Scale posts to fit 90% of the container */
+    width: 90%; /* Scale posts to fit 90% of the container */
     margin: 0 auto;
+  }
+
+  .work-samples blockquote.instagram-media {
+    width: 90%; /* Ensure Instagram posts fit 90% of the container on mobile */
+    max-width: none; /* Remove max-width to allow full scaling */
   }
 
   .tweets-row blockquote {
