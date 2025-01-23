@@ -15,7 +15,7 @@ author:
   {% assign educations = "" | split: "," %}
 
   {% capture education1 %}
-  Psychology B.A.|University of California, Los Angeles|Los Angeles, CA|September 2023|June 2025|• Cumulative 3.89 GPA<br>• Placed on Dean's Honors List for Fall of 2024<br>• Transferred from the University of California, Riverside|https://res.cloudinary.com/dp1pwklel/image/upload/v1724991354/uclaedit_vvm1it.png
+  Psychology B.A.|University of California, Los Angeles|Los Angeles, CA|September 2023|June 2025|• Cumulative 3.9 GPA<br>• Placed on Dean's Honors List for Fall of 2023 and Fall of 2024<br>• Transferred from the University of California, Riverside|https://res.cloudinary.com/dp1pwklel/image/upload/v1724991354/uclaedit_vvm1it.png
   {% endcapture %}
   {% assign educations = educations | push: education1 %}
   
