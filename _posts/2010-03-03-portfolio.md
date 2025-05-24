@@ -1,11 +1,11 @@
 ---
-date: 2024-12-10 23:50:59
+date: 2025-05-01 23:00:00
 layout: post
 title: Previous Work Samples
 subtitle:
 description: Past video projects, social media posts, and photography.
-image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_760,h_399/v1730701117/EVENTBRITE_BANNER_d4ab9s.png
-optimized_image: https://res.cloudinary.com/dp1pwklel/image/upload/c_fill,w_380,h_200/v1730701117/EVENTBRITE_BANNER_d4ab9s.png
+image: https://res.cloudinary.com/dp1pwklel/image/upload/t_head/v1748118601/discord_banner_nll1tp.png
+optimized_image: https://res.cloudinary.com/dp1pwklel/image/upload/t_smallsmart/v1748118601/discord_banner_nll1tp.png
 category: portfolio
 tags:
 author: 
@@ -16,8 +16,21 @@ paginate: true
 <details>
   <summary>Esports Marketing Coordinator - UCLA Recreation</summary>
   <div class="details-content">
-    <h3>Marketing and Photography for University of California Esports Initiative 2025 at Redbull HQ</h3>
-    <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444481/team_vscfv7.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
+    <h3>Marketing for UCLA Gaming & Esports Expo 2025</h3>
+      <div class="work-samples">
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIejyTqTUtc/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIcEYZUyIyi/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIPGc78SBGd/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      </div>
+    <br>
+    <h3>Marketing for Fiat Ludum 2025 presented by ASUS Republic of Gamers</h3>
+      <div class="work-samples">
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIpFgVETnnk/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DH_pCgYyse6/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DImupMUz3x-/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
+      </div>    
+    <br>
+    <h3>Marketing and Photography for University of California Esports Initiative 2025 at Red Bull HQ</h3>
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444951/REDBULLHQ_bsglx2.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <div class="work-samples tweets-row">
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Your OVERWATCH 2 Champions for UCEI 2025 presented by <a href="https://twitter.com/Xfinity?ref_src=twsrc%5Etfw">@Xfinity</a> are…<br><br>🎉 <a href="https://twitter.com/UCIEsports?ref_src=twsrc%5Etfw">@UCIEsports</a> 🎉<br><br>Congratulations for the big victory 💫and <a href="https://twitter.com/owexcal?ref_src=twsrc%5Etfw">@owexcal</a> for being the <a href="https://twitter.com/msiUSA?ref_src=twsrc%5Etfw">@msiUSA</a> MVP 🙌 <a href="https://t.co/JW4zrKtUs0">pic.twitter.com/JW4zrKtUs0</a></p>&mdash; University of California Esports Initiative (@UCEInitiative) <a href="https://twitter.com/UCEInitiative/status/1881154858012799450?ref_src=twsrc%5Etfw">January 20, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -65,7 +78,7 @@ paginate: true
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3553_df6vkq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444300/IMG_3556_v4eyuq.jpg" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
     <!-- Twitter Posts Row -->
-    <h3>University of California Esports Initiative Online Qualifiers Tweets</h3>
+    <h3>Marketing for University of California Esports Initiative Online Qualifiers</h3>
     <div class="work-samples tweets-row">
       <blockquote class="twitter-tweet">
         <p lang="en" dir="ltr">🛣️Road to LAN, UCEI Online Qualifiers for Overwatch 2 continues today at 5PM PT🏆!<br><br>
