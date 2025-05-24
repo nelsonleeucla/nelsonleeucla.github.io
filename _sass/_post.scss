@@ -1150,6 +1150,14 @@ details {
     display: block !important;
   }
 
+  .details-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background: rgba(255, 0, 0, 0.05); /* Visual indicator */
+  }
+
   .tweets-row blockquote {
     width: 90%; /* Scale tweets to fit 90% of the container on mobile */
     max-width: none;
