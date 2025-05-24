@@ -22,6 +22,7 @@ paginate: true
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIcEYZUyIyi/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIPGc78SBGd/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
       </div>
+      <script async src="//www.instagram.com/embed.js"></script>
     <br>
     <h3>Marketing for Fiat Ludum 2025 presented by ASUS Republic of Gamers</h3>
       <div class="work-samples">
@@ -29,6 +30,7 @@ paginate: true
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DH_pCgYyse6/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
       <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DImupMUz3x-/?utm_source=ig_embed&amp;utm_campaign=loading"></blockquote>
       </div>    
+      <script async src="//www.instagram.com/embed.js"></script>
     <br>
     <h3>Marketing and Photography for University of California Esports Initiative 2025 at Red Bull HQ</h3>
     <img src="https://res.cloudinary.com/dp1pwklel/image/upload/v1737444951/REDBULLHQ_bsglx2.png" alt="Image description" style="max-width:1200px; height:auto; display:block; margin:50;">
