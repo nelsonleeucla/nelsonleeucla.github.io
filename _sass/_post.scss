@@ -1120,30 +1120,31 @@ details {
 // Instagram reels grid
 .work-samples {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three items in a row on larger screens */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  width: 100%; /* Ensure full container width */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .work-samples blockquote.instagram-media {
-  width: 100% !important; /* Force full width on larger screens */
-  max-width: 300px; /* Restrict maximum size */
-  margin: 0 auto; /* Center-align individual posts */
+  width: 100% !important;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .work-samples {
-    grid-template-columns: 1fr; /* Single column layout for Instagram posts */
-    gap: 15px;
-    width: 90%; /* Scale posts to fit 90% of the container */
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
   }
 
   .work-samples blockquote.instagram-media {
-    width: 90% !important; /* Ensure Instagram posts fit 90% of the container on mobile */
-    max-width: none !important; /* Remove conflicting max-width to allow full scaling */
+    width: 90% !important;
+    max-width: 90% !important;
     margin: 0 auto !important;
   }
 
